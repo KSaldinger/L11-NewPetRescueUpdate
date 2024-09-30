@@ -25,7 +25,7 @@ const createPet = function(name,species){
 
 const sora = createPet("Sora", "ferret");
 const clover = createPet("Clover", "rabbit");
-const baxter = createPet("Baxter", "hamster");
+const baxter = createPet("Baxter", "snake");
 const cleo = createPet("Cleo", "rat");
 const franky = createPet("Franky", "turtle");
 
@@ -35,7 +35,9 @@ franky.isTired = 9;
 // Create array of our pet objects
 const allPets = [sora, clover,baxter, cleo, franky];
 
+
 //console.log(allPets);
+
 
 // Display pets in the browser
 const showPets = function(petArray) {
